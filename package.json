@@ -1,0 +1,31 @@
+{
+  "name": "hookworm",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "reset": "watchman watch-del-all; ./node_modules/react-native/packager/packager.sh start --resetCache",
+    "reinstall": "rm -rf ./node_modules && npm cache clean && yarn install"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.36.1",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-jest": "16.0.0",
+    "babel-plugin-module-resolver": "^2.2.0",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-react": "^6.5.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2"
+  }
+}
