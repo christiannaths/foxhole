@@ -2,13 +2,13 @@ import React from 'react'
 import styles from './style'
 import { TouchableHighlight, Text, View } from 'react-native'
 
-const ToolbarButton = ({ label, style, primary, onPress}) => {
+const ToolbarButton = ({ label, style, primary, onPress, highlight}) => {
   const buttonStyle = primary ? 'primaryButton' : 'button'
   const buttonTextStyle = primary ? 'primaryButtonText' : 'buttonText'
 
   return (
     <TouchableHighlight
-      underlayColor='rgba(255,255,255,0.5)'
+      underlayColor={ highlight }
       style={styles[buttonStyle]}
       onPress={onPress}
     >
@@ -18,7 +18,8 @@ const ToolbarButton = ({ label, style, primary, onPress}) => {
 }
 
 ToolbarButton.defaultProps = {
-  label: 'Click Me'
+  label: 'Click Me',
+  highlight: '#f1f1f1'
 }
 
 export default ToolbarButton

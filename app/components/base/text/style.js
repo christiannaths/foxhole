@@ -2,6 +2,6 @@ import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   root: {
-    fontSize: 20
+    fontSize: 22
   }
 })

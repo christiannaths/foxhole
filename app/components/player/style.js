@@ -13,10 +13,10 @@ export default StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row'
   },
-  group1: {
+  team1: {
     backgroundColor: '#7ecec9'
   },
-  group2: {
+  team2: {
     backgroundColor: '#fec675'
   },
   text: {

@@ -4,9 +4,7 @@ import App from './app'
 
 export default class hookworm extends Component {
   render () {
-    return (
-      <App />
-    )
+    return <App />
   }
 }
 

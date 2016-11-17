@@ -2,41 +2,49 @@
   {
     "id": "1",
     "name": "Player 1",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "2",
     "name": "Player 2",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "3",
     "name": "Player 3",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "4",
     "name": "Player 4",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "5",
     "name": "Player 5",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "6",
     "name": "Player 6",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "7",
     "name": "Player 7",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   },
   {
     "id": "8",
     "name": "Player 8",
-    "gp": 0
+    "gp": 0,
+    "team": "default"
   }
 ]
