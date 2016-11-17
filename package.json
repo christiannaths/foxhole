@@ -8,11 +8,14 @@
     "reset": "watchman watch-del-all; ./node_modules/react-native/packager/packager.sh start --resetCache",
     "reinstall": "rm -rf ./node_modules && npm cache clean && yarn install",
     "ios": "react-native run-ios",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "release:ios": "code-push release-react foxhole-ios ios",
+    "release:android": "code-push release-react foxhole-android android"
   },
   "dependencies": {
     "react": "15.3.2",
     "react-native": "0.36.1",
+    "react-native-code-push": "latest",
     "whatwg-fetch": "^1.0.0"
   },
   "jest": {
