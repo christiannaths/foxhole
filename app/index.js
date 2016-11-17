@@ -62,7 +62,7 @@ const assignTeams = (players, settings) => {
   return merged
 }
 
-class Hookworm extends React.Component {
+class Application extends React.Component {
   constructor (props) {
     super(props)
 
@@ -166,8 +166,8 @@ class Hookworm extends React.Component {
   }
  }
 
-Hookworm.propTypes = {}
-Hookworm.defaultProps = {
+Application.propTypes = {}
+Application.defaultProps = {
   settings: {
     team_size: 4,
     team_count: 2
@@ -191,4 +191,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Hookworm
+export default Application

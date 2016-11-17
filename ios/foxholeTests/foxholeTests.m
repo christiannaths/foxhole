@@ -16,11 +16,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface hookwormTests : XCTestCase
+@interface foxholeTests : XCTestCase
 
 @end
 
-@implementation hookwormTests
+@implementation foxholeTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

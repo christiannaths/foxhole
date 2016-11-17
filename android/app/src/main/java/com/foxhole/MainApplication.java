@@ -1,4 +1,4 @@
-package com.hookworm;
+package com.foxhole;
 
 import android.app.Application;
 import android.util.Log;
