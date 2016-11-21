@@ -1,4 +1,4 @@
-package com.foxhole;
+package com.christiannaths.foxhole;
 
 import android.app.Application;
 import android.util.Log;

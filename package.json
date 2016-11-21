@@ -10,7 +10,8 @@
     "ios": "react-native run-ios",
     "android": "react-native run-android",
     "release:ios": "code-push release-react foxhole-ios ios",
-    "release:android": "code-push release-react foxhole-android android"
+    "release:android": "code-push release-react foxhole-android android",
+    "nuke": "rm -rf android/build/; rm -rf android/app/build/; rm -rf android/.gradle/*; watchman watch-del-all; rm -rf ./node_modules; npm cache clean"
   },
   "dependencies": {
     "react": "15.3.2",

@@ -4,7 +4,7 @@ import codePush from 'react-native-code-push'
 
 import App from './app'
 
-const codePushOpts = { installMode: InstallMode.ON_NEXT_RESUME, minimumBackgroundDuration: 60 * 10 }
+const codePushOpts = { installMode: codePush.InstallMode.ON_NEXT_RESUME, minimumBackgroundDuration: 60 * 10 }
 
 export default class Foxhole extends Component {
   render () {
