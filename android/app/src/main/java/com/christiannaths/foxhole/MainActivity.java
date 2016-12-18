@@ -1,6 +1,7 @@
 package com.christiannaths.foxhole;
 
 import com.facebook.react.ReactActivity;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.microsoft.codepush.react.CodePush;
 
 public class MainActivity extends ReactActivity {

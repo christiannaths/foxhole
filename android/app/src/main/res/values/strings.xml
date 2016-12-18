@@ -1,4 +1,5 @@
 <resources>
+
     <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">4w3vjV4VptlzbOUu2HXCGiKGowCYEyLrOyA--</string>
     <string name="app_name">TeamShuffle</string>
 </resources>

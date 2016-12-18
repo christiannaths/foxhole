@@ -2,25 +2,32 @@ import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   default: {
-    // borderColor: 'black',
-    // borderWidth: StyleSheet.hairlineWidth,
-    borderRadius: 5,
-    backgroundColor: '#ccc',
+    borderRadius: 0,
+    backgroundColor: '#edf0f3',
     paddingVertical: 8,
     paddingHorizontal: 16,
     width: 300,
-    margin: 4,
+    marginBottom: StyleSheet.hairlineWidth,
     alignItems: 'center',
-    flexDirection: 'row'
+    flexDirection: 'row',
+    borderLeftColor: '#aaaeb3',
+    borderLeftWidth: 6,
+    borderStyle: 'solid',
   },
   team1: {
-    backgroundColor: '#7ecec9'
+    backgroundColor: 'white',
+    borderLeftColor: '#4990E2',
+    borderLeftWidth: 6,
+    borderStyle: 'solid',
   },
   team2: {
-    backgroundColor: '#fec675'
+    backgroundColor: 'white',
+    borderLeftColor: '#D0011B',
+    borderLeftWidth: 6,
+    borderStyle: 'solid',
   },
   text: {
-    color: 'white',
+    color: '#28323C',
     textAlign: 'center',
     flex: 1
   },

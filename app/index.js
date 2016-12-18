@@ -1,6 +1,8 @@
 import React from 'react'
 import { Text, View, ScrollView, StyleSheet, TouchableHighlight } from 'react-native'
 import Toolbar from '@components/toolbar'
+import TitleBar from '@components/titlebar'
+import Title from '@components/titlebar/title'
 import Game from '@components/game'
 import { defaultPlayers } from '@components/game'
 import Button from '@components/toolbar/button'
@@ -153,6 +155,11 @@ class Application extends React.Component {
           onDelete={this.handleDeletePlayer}
           onCancel={this.handleCancel}
         />
+        <TitleBar>
+
+          <Title>TeamShuffle</Title>
+
+        </TitleBar>
         <ScrollView contentContainerStyle={styles.scroller} style={{flex: 1}}>
           <Game players={players} onPlayerPress={this.handlePlayerPress} />
         </ScrollView>
@@ -180,14 +187,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#edeff2',
-    paddingTop: 60,
+    backgroundColor: '#dae0e6',
+    paddingTop: 0,
     alignItems: 'stretch'
   },
   scroller: {
     flex: 0,
-    paddingBottom: 20,
-    paddingHorizontal: 30
+    paddingVertical: 20,
+    paddingHorizontal: 30,
   }
 })
 

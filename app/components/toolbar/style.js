@@ -27,7 +27,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 8,
     paddingHorizontal: 12,
-    backgroundColor: '#fb5230'
+    backgroundColor: '#c5415d'
   },
   primaryButtonText: {
     fontSize: 14,

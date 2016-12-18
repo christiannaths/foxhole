@@ -17,6 +17,7 @@
     "react": "15.3.2",
     "react-native": "0.36.1",
     "react-native-code-push": "latest",
+    "react-native-linear-gradient": "^1.5.15",
     "whatwg-fetch": "^1.0.0"
   },
   "jest": {
