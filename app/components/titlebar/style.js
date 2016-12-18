@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
   root: {
     flex: 0,
+    backgroundColor: '#c5415d',
   },
   gradient: {
     flex: 1,
@@ -12,6 +13,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'transparent',
+    borderWidth: 0,
   },
   title: {
     color: 'white',

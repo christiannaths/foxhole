@@ -9,8 +9,10 @@
     "reinstall": "rm -rf ./node_modules && npm cache clean && yarn install",
     "ios": "react-native run-ios",
     "android": "react-native run-android",
-    "release:ios": "code-push release-react foxhole-ios ios",
-    "release:android": "code-push release-react foxhole-android android",
+    "release:ios": "code-push release-react foxhole-ios ios -d Production",
+    "release:android": "code-push release-react foxhole-android android -d Production",
+    "deployments:ios": "code-push deployment ls foxhole-ios",
+    "deployments:android": "code-push deployment ls foxhole-android",
     "nuke": "rm -rf android/build/; rm -rf android/app/build/; rm -rf android/.gradle/*; watchman watch-del-all; rm -rf ./node_modules; npm cache clean"
   },
   "dependencies": {
