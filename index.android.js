@@ -8,9 +8,7 @@ const codePushOpts = { installMode: codePush.InstallMode.ON_NEXT_RESUME, minimum
 
 export default class Foxhole extends Component {
   render () {
-    return (
-      <App />
-    )
+    return <App />
   }
 }
 
